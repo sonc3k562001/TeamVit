@@ -63,6 +63,19 @@ namespace Ice_Cream
                 //    //name: "default",
                 //    //pattern: "{controller=Home}/{action=Index}/{id?}");
 
+                endpoints.MapControllerRoute("catepage", "{category}/Page{productPage:int}",
+                    new { Controller = "Home", action = "Index" });
+
+                endpoints.MapControllerRoute("page", "Page{productPage:int}",
+                    new { Controller = "Home", action = "Index", productPage = 1 });
+
+                endpoints.MapControllerRoute("category", "{category}",
+                    new { Controller = "Home", action = "Index", productPage = 1 });
+
+                endpoints.MapControllerRoute("pagination", "Products/Page{productPage}",
+                    new { Controller = "Home", action = "Index", productPage = 1 });
+
+                endpoints.MapDefaultControllerRoute();
                 endpoints.MapDefaultControllerRoute();
                 endpoints.MapRazorPages();
 
