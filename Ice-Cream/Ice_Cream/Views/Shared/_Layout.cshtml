@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Ice_Cream</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ice Cream</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Recipe/Index">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        @*xóa class container*@
+        <div style="margin-top:50px">
+            <main role="main">
+                @RenderBody()
+            </main>
+        </div>
+    </section>
+        <footer class="container-fluid text-light" style="background-color:#fff5f7; background-position: center top; background-repeat:no-repeat; position:relative; height: 345px">
+            <div style="padding:80px 0 65px;">
+                <div style="width:45%; float:left; margin:0 150px 40px; vertical-align: baseline">
+                    <aside style="padding:15px 0">
+                        <div>
+                            <h3 style="color: #ffa5ba; font-size:20px;"> HOMEMADE ICE CREAM MADE</h3>
+                            <h1 style="color: #d41442; font-size:60px;"> WITH PASSION</h1>
+                        </div>
+                    </aside>
+                </div>
+                <div style="width:30%;float:left; margin:0 1% 40px;">
+                    <aside>
+                        <div style="text-align: right;">
+                            <div style="font-size: 35px; margin: 0 0 15px; color: #ffa5ba;">
+                                <a href="https://twitter.com">
+                                    <i class="icon-twitter-circled"></i>
+                                </a>
+                                <a href="https://www.facebook.com">
+                                    <i class="icon-facebook-circled"></i>
+                                </a>
+                                <a href="https://web.skype.com">
+                                    <i class="icon-skype-circled"></i>
+                                </a>
+                            </div>
+                            <hr style="margin:0 auto 30px; background:none; color:transparent; clear:both" />
+                            <h6>
+                                " Feel free to contact "
+                                <span style="color:#d41442">+(84)123456789</span>
+                            </h6>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+
+        </footer>
+        <div class="text-center" style="text-align: center; border-top-color:rgba(0,0,0,0.1); border-top:1px solid rgba(0,0,0,0.1); font: inherit;background-color:#fff5f7; height:90px">
+            <div style="max-width:1060px; position:relative">
+                <div style=" margin-bottom: 20px; padding-top: 30px; min-height: 33px;">
+                    <div style="float:none; margin:0 0 10px;color:#b3a0a4">
+                        <p>© 2020 Ice-Cream. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
