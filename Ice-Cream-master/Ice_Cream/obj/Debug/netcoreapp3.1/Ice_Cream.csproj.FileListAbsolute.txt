@@ -317,3 +317,4 @@ D:\Visual studio code\TeamVit\Ice-Cream-master\Ice_Cream\obj\Debug\netcoreapp3.1
 D:\Visual studio code\TeamVit\Ice-Cream-master\Ice_Cream\obj\Debug\netcoreapp3.1\Ice_Cream.pdb
 D:\Visual studio code\TeamVit\Ice-Cream-master\Ice_Cream\obj\Debug\netcoreapp3.1\Ice_Cream.genruntimeconfig.cache
 D:\Visual studio code\TeamVit\Ice-Cream-master\Ice_Cream\obj\Debug\netcoreapp3.1\Razor\Views\Recipe\Index.cshtml.g.cs
+D:\Visual studio code\TeamVit\Ice-Cream-master\Ice_Cream\obj\Debug\netcoreapp3.1\Razor\Views\About\Index.cshtml.g.cs
