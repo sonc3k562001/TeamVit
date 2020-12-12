@@ -92,6 +92,10 @@ body {
         font-stretch: condensed;
     }
 
+    .bg-contact{
+        background-color: #fff;
+        padding-bottom: 250px;
+    }
 .contact {
     margin-top: 100px;
     display: inline-flex;
@@ -117,6 +121,8 @@ body {
         background-color: #fff5f7;
         font-size: 16px;
         letter-spacing: 0;
+        outline:none;
+        border: 0px;
     }
 
         .contact .form-control:-moz-placeholder {
@@ -144,7 +150,8 @@ body {
         }
 
     .contact .contact-header {
-        padding: 10px;
+        padding: 10px 0 50px;
+        font-family: 'Titan One', Arial, Tahoma, sans-serif;
     }
 
     .contact .image-wrapper img {
@@ -152,52 +159,45 @@ body {
         height: 450px;
     }
 
-.time-detail {
-    position: relative;
-    background-image: url("/img/icecream2-sectionbg2.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    background-color: #fff5f7;
-    display: inline-flex;
-    justify-content: center;
+.title {
+    width: 100%;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-family: 'Titan One', Arial, Tahoma, sans-serif;
+    color: white;
     margin-top: 200px;
-    z-index: 0;
+}
+.content {
+    margin-top: -80px
 }
 
-    .time-detail .time-card {
-        z-index: 1;
-        background-color: #fff;
-        padding: 50px;
-        box-shadow: 0px 10px 40px rgba(212, 20, 66, .08);
-        border-radius: 20px;
-        max-width: 25%;
-        margin-top: -100px;
+    .content span {
+        display: inline-block;
+        background: #efd1a5;
+        color: #fff;
+        padding: 0 15px;
+        border-radius: 5px;
+        margin: 50px 15px 15px
     }
 
-        .time-detail .time-card h6 {
-            margin-bottom: 16px;
-        }
+    .content h6 {
+        font-size: 17px;
+        line-height: 28px;
+        font-weight: 550;
+        letter-spacing: 0px;
+        margin: 7px 15px;
+        font-family: 'DM Sans', Arial, Tahoma, sans-serif;
+        color: #000
+    }
 
-        .time-detail .time-card p {
-            margin-bottom: 16px;
-        }
-
-        .time-detail .time-card hr {
-            margin: 0 0 16px;
-        }
-
-        .time-detail .time-card .card-title {
-            text-align: center;
-            display: inline-block;
-            background: #efd1a5;
-            color: #fff;
-            padding: 8px 16px;
-            border-radius: 5px;
-            width: 25%;
-            margin-bottom: 16px;
-        }
-
-        .time-detail .time-card .card-subtitle {
-            margin: 0 0 16px;
-        }
+    .content p {
+        font-size: 17px;
+        line-height: 28px;
+        font-weight: 550;
+        letter-spacing: 0px;
+        margin: 7px 15px;
+        font-family: 'DM Sans', Arial, Tahoma, sans-serif;
+        color: #907E82
+    }
