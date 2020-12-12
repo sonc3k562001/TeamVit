@@ -401,7 +401,7 @@ namespace Ice_Cream.Models
                                     + "– Đối với bơ trộn sữa chua: Vì bên trong sữa chua có bơ nên dễ bị lên men, có vị chua. Bạn chỉ nên sử dụng trong khoảng 1 – 2 ngày.",
                          Note = "",
                          Price = 1,
-                         Category = "Free"
+                         Category = "Fee"
                      }
                      );
                 context.SaveChanges();
