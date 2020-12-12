@@ -13,6 +13,4 @@ namespace Ice_Cream.Controllers
             return View();
         }
     }
-       
-    
 }

@@ -26,8 +26,22 @@ using Ice_Cream.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "D:\Visual studio code\TeamVit\Ice-Cream-master\Ice_Cream\Views\_ViewImports.cshtml"
+using Ice_Cream.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "D:\Visual studio code\TeamVit\Ice-Cream-master\Ice_Cream\Views\_ViewImports.cshtml"
+using Ice_Cream.Infrastructure;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7c768e2ea11e9cafee4c2d1f157ee8fbd8ccd27e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"118ad47d25865380f63af3744309f5ae468eefba", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
