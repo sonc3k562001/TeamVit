@@ -18,6 +18,27 @@ namespace Ice_Cream.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
+            modelBuilder.Entity("Ice_Cream.Models.Customer", b =>
+                {
+                    b.Property<long>("CustomerID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CustomerName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CustomerID");
+
+                    b.ToTable("Customers");
+                });
+
             modelBuilder.Entity("Ice_Cream.Models.Product", b =>
                 {
                     b.Property<long>("ProductID")
@@ -34,7 +55,13 @@ namespace Ice_Cream.Migrations
                     b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Ingredients")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Note")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")

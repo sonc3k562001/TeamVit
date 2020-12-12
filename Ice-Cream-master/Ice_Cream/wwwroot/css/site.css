@@ -39,7 +39,6 @@ header {
         font-weight: 400;
         letter-spacing: 0px;
         font-family: "Titan One", Arial, Tahoma, sans-serif;
-
     }
 
 .menu-wrapper {
@@ -94,6 +93,7 @@ header {
     left: 100px;
     display: inline-flex
 }
+
     .header-slider-glass-milk img {
         margin-top: 110px;
     }
@@ -103,6 +103,7 @@ header {
         color: white;
         font-size: 13px;
     }
+
 .header-slider-circle {
     position: absolute;
     top: 20px;
@@ -116,18 +117,21 @@ header {
     right: 400px;
     z-index: 1;
 }
+
 .header-silder-moderm {
     position: absolute;
     bottom: 0px;
     right: 60px;
     z-index: 2;
 }
+
 .header-slider-circle-mini-one {
     position: absolute;
     top: 130px;
     right: 60px;
     z-index: 1;
 }
+
 .slider-16 {
     position: absolute;
     font-size: 46px;
@@ -137,6 +141,7 @@ header {
     z-index: 2;
     font-family: "Titan One", Arial, Tahoma, sans-serif;
 }
+
 .slider-cafes {
     position: absolute;
     font-family: "DM Sans";
@@ -218,7 +223,7 @@ header {
 
 .text-cow {
     float: left;
-    text-align:left;
+    text-align: left;
     padding: 50px;
 }
 

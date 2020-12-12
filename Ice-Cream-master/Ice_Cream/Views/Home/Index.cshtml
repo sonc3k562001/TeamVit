@@ -1,6 +1,6 @@
 ﻿
 <environment>
-    <link rel="stylesheet" href="~/css/site.css"/>
+    <link rel="stylesheet" href="~/css/site.css" />
 </environment>
 <div>
     <header>
@@ -12,10 +12,10 @@
                 </div>
                 <div class="menu-wrapper">
                     <ul class="menu-ul">
-                        <li><a href="/#"><span style="color:#d41442;font-size:20px">Home</span></a></li>
-                        <li><a href="/#"><span>Product</span></a></li>
-                        <li><a href="/#"><span>About</span></a></li>
-                        <li><a href="/#"><span>Contact</span></a></li>
+                        <li><a asp-controller="Home" asp-action="Index"><span style="color:#d41442;font-size:20px">Home</span></a></li>
+                        <li><a asp-controller="Recipe" asp-action="Index"><span>Recipe</span></a></li>
+                        <li><a asp-controller="About" asp-action="Index"><span>About</span></a></li>
+                        <li><a asp-controller="Contact" asp-action="Index"><span>Contact</span></a></li>
                     </ul>
                 </div>
             </div>

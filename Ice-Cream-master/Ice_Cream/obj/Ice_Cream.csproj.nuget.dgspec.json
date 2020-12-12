@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\son10\\OneDrive\\Tài liệu\\GitHub\\webt1908a\\Ice-Cream-master\\Ice_Cream\\Ice_Cream.csproj": {}
+    "C:\\Users\\son10\\Downloads\\TeamVit-master\\Ice-Cream-master\\Ice_Cream\\Ice_Cream.csproj": {}
   },
   "projects": {
-    "C:\\Users\\son10\\OneDrive\\Tài liệu\\GitHub\\webt1908a\\Ice-Cream-master\\Ice_Cream\\Ice_Cream.csproj": {
+    "C:\\Users\\son10\\Downloads\\TeamVit-master\\Ice-Cream-master\\Ice_Cream\\Ice_Cream.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\son10\\OneDrive\\Tài liệu\\GitHub\\webt1908a\\Ice-Cream-master\\Ice_Cream\\Ice_Cream.csproj",
+        "projectUniqueName": "C:\\Users\\son10\\Downloads\\TeamVit-master\\Ice-Cream-master\\Ice_Cream\\Ice_Cream.csproj",
         "projectName": "Ice_Cream",
-        "projectPath": "C:\\Users\\son10\\OneDrive\\Tài liệu\\GitHub\\webt1908a\\Ice-Cream-master\\Ice_Cream\\Ice_Cream.csproj",
+        "projectPath": "C:\\Users\\son10\\Downloads\\TeamVit-master\\Ice-Cream-master\\Ice_Cream\\Ice_Cream.csproj",
         "packagesPath": "C:\\Users\\son10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\son10\\OneDrive\\Tài liệu\\GitHub\\webt1908a\\Ice-Cream-master\\Ice_Cream\\obj\\",
+        "outputPath": "C:\\Users\\son10\\Downloads\\TeamVit-master\\Ice-Cream-master\\Ice_Cream\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -58,6 +58,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
