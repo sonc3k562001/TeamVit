@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
-using System.Threading.Tasks;
-using Ice_Cream.Models;
 
-namespace Practical.Models
+namespace Ice_Cream.Models
 {
-    public class SeedData
+    public static class SeedData
     {
         public static void EnsurePopulated(IApplicationBuilder app)
         {

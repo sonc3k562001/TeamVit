@@ -1,16 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Ice_Cream.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Practical.Models;
+using Ice_Cream.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Ice_Cream
 {
@@ -35,6 +29,9 @@ namespace Ice_Cream
 
             services.AddScoped<IStoreRepository, EFStoreRepository>();
             services.AddRazorPages();
+
+            services.AddDistributedMemoryCache();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,8 +50,9 @@ namespace Ice_Cream
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseRouting();
+            app.UseSession();
 
+            app.UseRouting();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
@@ -64,18 +62,17 @@ namespace Ice_Cream
                 //    //pattern: "{controller=Home}/{action=Index}/{id?}");
 
                 endpoints.MapControllerRoute("catepage", "{category}/Page{productPage:int}",
-                    new { Controller = "Home", action = "Index" });
+                    new { Controller = "Product", action = "Index" });
 
                 endpoints.MapControllerRoute("page", "Page{productPage:int}",
-                    new { Controller = "Home", action = "Index", productPage = 1 });
+                    new { Controller = "Product", action = "Index", productPage = 1 });
 
                 endpoints.MapControllerRoute("category", "{category}",
-                    new { Controller = "Home", action = "Index", productPage = 1 });
+                    new { Controller = "Product", action = "Index", productPage = 1 });
 
                 endpoints.MapControllerRoute("pagination", "Products/Page{productPage}",
-                    new { Controller = "Home", action = "Index", productPage = 1 });
+                    new { Controller = "Product", action = "Index", productPage = 1 });
 
-                endpoints.MapDefaultControllerRoute();
                 endpoints.MapDefaultControllerRoute();
                 endpoints.MapRazorPages();
 

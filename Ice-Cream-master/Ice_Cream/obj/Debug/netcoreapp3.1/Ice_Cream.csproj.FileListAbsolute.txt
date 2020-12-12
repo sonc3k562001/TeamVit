@@ -543,3 +543,5 @@ C:\Users\son10\Downloads\TeamVit-master\Ice-Cream-master\Ice_Cream\obj\Debug\net
 C:\Users\son10\Downloads\TeamVit-master\Ice-Cream-master\Ice_Cream\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs
 C:\Users\son10\Downloads\TeamVit-master\Ice-Cream-master\Ice_Cream\obj\Debug\netcoreapp3.1\Razor\Views\about\Index.cshtml.g.cs
 C:\Users\son10\Downloads\TeamVit-master\Ice-Cream-master\Ice_Cream\obj\Debug\netcoreapp3.1\Razor\Views\contact\Index.cshtml.g.cs
+C:\Users\son10\Downloads\TeamVit-master\Ice-Cream-master\Ice_Cream\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\son10\Downloads\TeamVit-master\Ice-Cream-master\Ice_Cream\obj\Debug\netcoreapp3.1\Razor\Views\Product\GetProduct.cshtml.g.cs
