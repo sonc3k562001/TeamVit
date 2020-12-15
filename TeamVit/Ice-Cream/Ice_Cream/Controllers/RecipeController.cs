@@ -21,8 +21,8 @@ namespace Ice_Cream.Controllers
         {
             repository = repo;
         }
-        //sửa PageSize=3
-        public int PageSize = 3;
+        //sửa PageSize=6
+        public int PageSize = 6;
         public ViewResult CateRecipe(string category, int productPage = 1)
             => View(new ProductsListViewModel
             {
